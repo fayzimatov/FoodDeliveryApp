@@ -1,0 +1,22 @@
+//
+//  UIColor + Extension.swift
+//  FoodDeliveryApp
+//
+//  Created by Umidjon Fayzimatov on 04/10/24.
+//
+
+import UIKit
+
+extension UIColor {
+    
+    func hex(_ rgbValue: UInt64) -> UIColor {
+        return UIColor(
+            red: CGFloat((rgbValue & 0xFF0000) >> 16) / 255.0,
+            green: CGFloat((rgbValue & 0xFF0000) >> 16) / 255.0,
+            blue: CGFloat((rgbValue & 0xFF0000) >> 16) / 255.0,
+            alpha: CGFloat(1.0)
+        )
+    }
+    
+}
+
