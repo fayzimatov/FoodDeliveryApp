@@ -28,6 +28,14 @@
 		D1D8ECD32CAFBC7300204109 /* UIFont + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D8ECD22CAFBC7300204109 /* UIFont + Extension.swift */; };
 		D1D8ECD52CAFBD7F00204109 /* UIColor + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D8ECD42CAFBD7F00204109 /* UIColor + Extension.swift */; };
 		D1D8ECD72CAFBDA400204109 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D8ECD62CAFBDA400204109 /* AppColors.swift */; };
+		D1D8ECDB2CB1078A00204109 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D8ECDA2CB1078A00204109 /* Coordinator.swift */; };
+		D1D8ECDE2CB11EAD00204109 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D8ECDD2CB11EAD00204109 /* AppCoordinator.swift */; };
+		D1D8ECE02CB11FDE00204109 /* OnBoardingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D8ECDF2CB11FDE00204109 /* OnBoardingCoordinator.swift */; };
+		D1D8ECE22CB1275300204109 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D8ECE12CB1275300204109 /* HomeCoordinator.swift */; };
+		D1D8ECE42CB1276600204109 /* OrderCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D8ECE32CB1276600204109 /* OrderCoordinator.swift */; };
+		D1D8ECE62CB1277100204109 /* ListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D8ECE52CB1277100204109 /* ListCoordinator.swift */; };
+		D1D8ECE82CB1284700204109 /* ProfileCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D8ECE72CB1284700204109 /* ProfileCoordinator.swift */; };
+		D1D8ECEA2CB1289600204109 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D8ECE92CB1289600204109 /* TabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +62,14 @@
 		D1D8ECD22CAFBC7300204109 /* UIFont + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont + Extension.swift"; sourceTree = "<group>"; };
 		D1D8ECD42CAFBD7F00204109 /* UIColor + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + Extension.swift"; sourceTree = "<group>"; };
 		D1D8ECD62CAFBDA400204109 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		D1D8ECDA2CB1078A00204109 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		D1D8ECDD2CB11EAD00204109 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		D1D8ECDF2CB11FDE00204109 /* OnBoardingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingCoordinator.swift; sourceTree = "<group>"; };
+		D1D8ECE12CB1275300204109 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		D1D8ECE32CB1276600204109 /* OrderCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCoordinator.swift; sourceTree = "<group>"; };
+		D1D8ECE52CB1277100204109 /* ListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCoordinator.swift; sourceTree = "<group>"; };
+		D1D8ECE72CB1284700204109 /* ProfileCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCoordinator.swift; sourceTree = "<group>"; };
+		D1D8ECE92CB1289600204109 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +102,7 @@
 		D1D8EC9F2CAFB84B00204109 /* FoodDeliveryApp */ = {
 			isa = PBXGroup;
 			children = (
+				D1D8ECD82CAFBFEF00204109 /* NavigationLayer */,
 				D1D8ECB42CAFBB4400204109 /* Recources */,
 				D1D8ECA02CAFB84B00204109 /* AppDelegate.swift */,
 				D1D8ECA22CAFB84B00204109 /* SceneDelegate.swift */,
@@ -142,6 +159,37 @@
 				D1D8ECD42CAFBD7F00204109 /* UIColor + Extension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D1D8ECD82CAFBFEF00204109 /* NavigationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				D1D8ECD92CB1077A00204109 /* Coordinators */,
+				D1D8ECDC2CB107A000204109 /* Controllers */,
+			);
+			path = NavigationLayer;
+			sourceTree = "<group>";
+		};
+		D1D8ECD92CB1077A00204109 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				D1D8ECDA2CB1078A00204109 /* Coordinator.swift */,
+				D1D8ECDD2CB11EAD00204109 /* AppCoordinator.swift */,
+				D1D8ECDF2CB11FDE00204109 /* OnBoardingCoordinator.swift */,
+				D1D8ECE12CB1275300204109 /* HomeCoordinator.swift */,
+				D1D8ECE32CB1276600204109 /* OrderCoordinator.swift */,
+				D1D8ECE52CB1277100204109 /* ListCoordinator.swift */,
+				D1D8ECE72CB1284700204109 /* ProfileCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		D1D8ECDC2CB107A000204109 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D1D8ECE92CB1289600204109 /* TabBarController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +279,16 @@
 				D1D8ECA52CAFB84B00204109 /* ViewController.swift in Sources */,
 				D1D8ECA12CAFB84B00204109 /* AppDelegate.swift in Sources */,
 				D1D8ECD72CAFBDA400204109 /* AppColors.swift in Sources */,
+				D1D8ECDE2CB11EAD00204109 /* AppCoordinator.swift in Sources */,
 				D1D8ECA32CAFB84B00204109 /* SceneDelegate.swift in Sources */,
+				D1D8ECE42CB1276600204109 /* OrderCoordinator.swift in Sources */,
 				D1D8ECD52CAFBD7F00204109 /* UIColor + Extension.swift in Sources */,
+				D1D8ECE82CB1284700204109 /* ProfileCoordinator.swift in Sources */,
+				D1D8ECE62CB1277100204109 /* ListCoordinator.swift in Sources */,
+				D1D8ECE22CB1275300204109 /* HomeCoordinator.swift in Sources */,
+				D1D8ECEA2CB1289600204109 /* TabBarController.swift in Sources */,
+				D1D8ECDB2CB1078A00204109 /* Coordinator.swift in Sources */,
+				D1D8ECE02CB11FDE00204109 /* OnBoardingCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
