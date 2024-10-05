@@ -29,6 +29,8 @@
 		D1D8ECD52CAFBD7F00204109 /* UIColor + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D8ECD42CAFBD7F00204109 /* UIColor + Extension.swift */; };
 		D1D8ECD72CAFBDA400204109 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D8ECD62CAFBDA400204109 /* AppColors.swift */; };
 		D1D8ECDB2CB1078A00204109 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D8ECDA2CB1078A00204109 /* Coordinator.swift */; };
+		D1D8ECDE2CB11EAD00204109 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D8ECDD2CB11EAD00204109 /* AppCoordinator.swift */; };
+		D1D8ECE02CB11FDE00204109 /* OnBoardingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D8ECDF2CB11FDE00204109 /* OnBoardingCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +58,8 @@
 		D1D8ECD42CAFBD7F00204109 /* UIColor + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + Extension.swift"; sourceTree = "<group>"; };
 		D1D8ECD62CAFBDA400204109 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
 		D1D8ECDA2CB1078A00204109 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		D1D8ECDD2CB11EAD00204109 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		D1D8ECDF2CB11FDE00204109 /* OnBoardingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +164,8 @@
 			isa = PBXGroup;
 			children = (
 				D1D8ECDA2CB1078A00204109 /* Coordinator.swift */,
+				D1D8ECDD2CB11EAD00204109 /* AppCoordinator.swift */,
+				D1D8ECDF2CB11FDE00204109 /* OnBoardingCoordinator.swift */,
 			);
 			path = Coordinators;
 			sourceTree = "<group>";
@@ -258,9 +264,11 @@
 				D1D8ECA52CAFB84B00204109 /* ViewController.swift in Sources */,
 				D1D8ECA12CAFB84B00204109 /* AppDelegate.swift in Sources */,
 				D1D8ECD72CAFBDA400204109 /* AppColors.swift in Sources */,
+				D1D8ECDE2CB11EAD00204109 /* AppCoordinator.swift in Sources */,
 				D1D8ECA32CAFB84B00204109 /* SceneDelegate.swift in Sources */,
 				D1D8ECD52CAFBD7F00204109 /* UIColor + Extension.swift in Sources */,
 				D1D8ECDB2CB1078A00204109 /* Coordinator.swift in Sources */,
+				D1D8ECE02CB11FDE00204109 /* OnBoardingCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
