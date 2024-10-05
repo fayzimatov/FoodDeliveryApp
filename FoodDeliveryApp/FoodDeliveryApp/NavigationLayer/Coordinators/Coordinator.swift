@@ -55,15 +55,12 @@ protocol TabBarCoordinator: AnyObject, CoordinatorProtocol {
 
 
 class Coordinator: CoordinatorProtocol {
-    var childCoordinators: [any CoordinatorProtocol]
-    
+    var childCoordinators: [CoordinatorProtocol]
     var type: CoordinatorType
-    
     var navigationController: UINavigationController?
+    var finishDelegate: CoordinatorFinishDelagete?
     
-    var finishDelegate: (any CoordinatorFinishDelagete)?
-    
-    init(childCoordinators: [CoordinatorProtocol] = [CoordinatorProtocol](), type: CoordinatorType, navigationController: UINavigationController, finishDelegate: (any CoordinatorFinishDelagete)? = nil) {
+    init(childCoordinators: [CoordinatorProtocol] = [CoordinatorProtocol](), type: CoordinatorType, navigationController: UINavigationController, finishDelegate: CoordinatorFinishDelagete? = nil) {
         self.childCoordinators = childCoordinators
         self.type = type
         self.navigationController = navigationController
@@ -74,7 +71,7 @@ class Coordinator: CoordinatorProtocol {
     //Чтобы узнат координатор уничтожен
     deinit {
         print("Coordinator deinited \(type)")
-        childCoordinators.forEach{ $0.finishDelegate = nil }
+        childCoordinators.forEach { $0.finishDelegate = nil }
         childCoordinators.removeAll()
     }
     

@@ -31,6 +31,11 @@
 		D1D8ECDB2CB1078A00204109 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D8ECDA2CB1078A00204109 /* Coordinator.swift */; };
 		D1D8ECDE2CB11EAD00204109 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D8ECDD2CB11EAD00204109 /* AppCoordinator.swift */; };
 		D1D8ECE02CB11FDE00204109 /* OnBoardingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D8ECDF2CB11FDE00204109 /* OnBoardingCoordinator.swift */; };
+		D1D8ECE22CB1275300204109 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D8ECE12CB1275300204109 /* HomeCoordinator.swift */; };
+		D1D8ECE42CB1276600204109 /* OrderCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D8ECE32CB1276600204109 /* OrderCoordinator.swift */; };
+		D1D8ECE62CB1277100204109 /* ListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D8ECE52CB1277100204109 /* ListCoordinator.swift */; };
+		D1D8ECE82CB1284700204109 /* ProfileCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D8ECE72CB1284700204109 /* ProfileCoordinator.swift */; };
+		D1D8ECEA2CB1289600204109 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D8ECE92CB1289600204109 /* TabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +65,11 @@
 		D1D8ECDA2CB1078A00204109 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		D1D8ECDD2CB11EAD00204109 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		D1D8ECDF2CB11FDE00204109 /* OnBoardingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingCoordinator.swift; sourceTree = "<group>"; };
+		D1D8ECE12CB1275300204109 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		D1D8ECE32CB1276600204109 /* OrderCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCoordinator.swift; sourceTree = "<group>"; };
+		D1D8ECE52CB1277100204109 /* ListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCoordinator.swift; sourceTree = "<group>"; };
+		D1D8ECE72CB1284700204109 /* ProfileCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCoordinator.swift; sourceTree = "<group>"; };
+		D1D8ECE92CB1289600204109 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +176,10 @@
 				D1D8ECDA2CB1078A00204109 /* Coordinator.swift */,
 				D1D8ECDD2CB11EAD00204109 /* AppCoordinator.swift */,
 				D1D8ECDF2CB11FDE00204109 /* OnBoardingCoordinator.swift */,
+				D1D8ECE12CB1275300204109 /* HomeCoordinator.swift */,
+				D1D8ECE32CB1276600204109 /* OrderCoordinator.swift */,
+				D1D8ECE52CB1277100204109 /* ListCoordinator.swift */,
+				D1D8ECE72CB1284700204109 /* ProfileCoordinator.swift */,
 			);
 			path = Coordinators;
 			sourceTree = "<group>";
@@ -173,6 +187,7 @@
 		D1D8ECDC2CB107A000204109 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				D1D8ECE92CB1289600204109 /* TabBarController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -266,7 +281,12 @@
 				D1D8ECD72CAFBDA400204109 /* AppColors.swift in Sources */,
 				D1D8ECDE2CB11EAD00204109 /* AppCoordinator.swift in Sources */,
 				D1D8ECA32CAFB84B00204109 /* SceneDelegate.swift in Sources */,
+				D1D8ECE42CB1276600204109 /* OrderCoordinator.swift in Sources */,
 				D1D8ECD52CAFBD7F00204109 /* UIColor + Extension.swift in Sources */,
+				D1D8ECE82CB1284700204109 /* ProfileCoordinator.swift in Sources */,
+				D1D8ECE62CB1277100204109 /* ListCoordinator.swift in Sources */,
+				D1D8ECE22CB1275300204109 /* HomeCoordinator.swift in Sources */,
+				D1D8ECEA2CB1289600204109 /* TabBarController.swift in Sources */,
 				D1D8ECDB2CB1078A00204109 /* Coordinator.swift in Sources */,
 				D1D8ECE02CB11FDE00204109 /* OnBoardingCoordinator.swift in Sources */,
 			);
